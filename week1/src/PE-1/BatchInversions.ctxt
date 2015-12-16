@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=inImage
+comment0.target=edu.duke.ImageResource\ makeInversion(edu.duke.ImageResource)
+comment1.params=color
+comment1.target=int\ invertColor(int)
+comment2.params=
+comment2.target=void\ selectAndConvert()
+numComments=3

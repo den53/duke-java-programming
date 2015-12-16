@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=parser\ exportOfInterest
+comment0.target=void\ listExporters(org.apache.commons.csv.CSVParser,\ java.lang.String)
+comment1.params=
+comment1.target=void\ whoExportsCoffee()
+comment2.params=
+comment2.target=void\ tester()
+comment2.text=Write\ a\ method\ named\ tester\ that\ will\ create\ your\ CSVParser\ and\ call\ each\ of\ the\ methods\ below\ \nin\ parts\ 2,\ 3,\ 4,\ and\ 5.\ \n
+comment3.params=parser\ country
+comment3.target=java.lang.String\ countryInfo(org.apache.commons.csv.CSVParser,\ java.lang.String)
+comment3.text=Write\ a\ method\ named\ countryInfo\ that\ has\ two\ parameters,\ parser\ is\ a\ CSVParser\ and\ country\ \n\ is\ a\ String.\ This\ method\ returns\ a\ string\ of\ information\ about\ the\ country\ or\ returns\ \u201CNOT\ FOUND\u201D\n\ if\ there\ is\ no\ information\ about\ the\ country.\ \n\ The\ format\ of\ the\ string\ returned\ is\ \n\ the\ country,\ followed\ by\ \u201C\:\ \u201C,\ followed\ by\ a\ list\ of\ the\ countries\u2019\ exports,\ \n\ followed\ by\ \u201C\:\ \u201C,\ followed\ by\ the\ countries\ export\ value\n
+comment4.params=parser\ exportItem1\ exportItem2
+comment4.target=void\ listExportersTwoProducts(org.apache.commons.csv.CSVParser,\ java.lang.String,\ java.lang.String)
+comment4.text=Write\ a\ void\ method\ named\ listExportersTwoProducts\ that\ has\ three\ parameters,\ parser\ is\ a\n\ CSVParser,\ exportItem1\ is\ a\ String\ and\ exportItem2\ is\ a\ String.\ \n\ This\ method\ prints\ the\ names\ of\ all\ the\ countries\ that\ have\ both\ exportItem1\ and\ exportItem2\ \n\ as\ export\ items.\ For\ example,\ using\ the\ file\ exports_small.csv,\ this\ method\ called\ with\ the\ items\n\ \u201Cgold\u201D\ and\ \u201Cdiamonds\u201D\ would\ print\ the\ countries\n
+comment5.params=parser\ exportItem
+comment5.target=int\ numberOfExporters(org.apache.commons.csv.CSVParser,\ java.lang.String)
+comment5.text=4.\ Write\ a\ method\ named\ numberOfExporters,\ which\ has\ two\ parameters,\ parser\ is\ a\ CSVParser,\ and\ \n\ exportItem\ is\ a\ String.\ This\ method\ returns\ the\ number\ of\ countries\ that\ export\ exportItem.\ \n\ For\ example,\ using\ the\ file\ exports_small.csv,\ this\ method\ called\ with\ the\ item\ \u201Cgold\u201D\ would\ \n\ return\ 3.\n
+comment6.params=parser\ amount
+comment6.target=void\ bigExporters(org.apache.commons.csv.CSVParser,\ java.lang.String)
+comment6.text=\n\ 5.\ Write\ a\ void\ method\ named\ bigExporters\ that\ has\ two\ parameters,\ parser\ is\ a\ CSVParser,\ \n\ and\ amount\ is\ a\ String\ in\ the\ format\ of\ a\ dollar\ sign,\ followed\ by\ an\ integer\ number\ with\ a\ \n\ comma\ separator\ every\ three\ digits\ from\ the\ right.\ An\ example\ of\ such\ a\ string\ might\ \n\ be\ \u201C$400,000,000\u201D.\ This\ method\ prints\ the\ names\ of\ countries\ and\ their\ Value\ amount\ for\ all\ \n\ countries\ whose\ Value\ (dollars)\ string\ is\ longer\ than\ the\ amount\ string.\ You\ do\ not\ need\ to\ \n\ parse\ either\ string\ value\ as\ an\ integer,\ just\ compare\ the\ lengths\ of\ the\ strings.\ \n\ For\ example,\ if\ bigExporters\ is\ called\ with\ the\ file\ exports_small.csv\ and\ amount\ with\ \n\ the\ string\ $999,999,999,\ then\ this\ method\ would\ print\ eight\ countries\ and\ their\ export\ \n\ values\ shown\ here\:\n
+numComments=7
